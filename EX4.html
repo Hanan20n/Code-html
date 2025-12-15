@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tech Conference Registration Form</title>
+</head>
+
+<body>
+
+  <h2>Tech Conference Registration Form</h2>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label for="fullname">Full Name:</label><br>
+      <input type="text" id="fullname" name="fullname" placeholder="Full Name"><br><br>
+
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" placeholder="Email Address"><br><br>
+
+      <label for="contact">Contact Number:</label><br>
+      <input type="text" id="contact" name="contact" placeholder=" +252 61 9006246"><br>
+    </fieldset>
+
+    <br>
+    <fieldset>
+      <legend>Conference Details</legend>
+
+      <p>Preferred Day(s) of Attendance:</p>
+      <input type="checkbox" id="day1" name="days" value="Day 1">
+      <label for="day1">Day 1</label><br>
+
+      <input type="checkbox" id="day2" name="days" value="Day 2">
+      <label for="day2">Day 2</label><br>
+
+      <input type="checkbox" id="day3" name="days" value="Day 3">
+      <label for="day3">Day 3</label><br><br>
+
+      <p>Type of Attendance:</p>
+      <input type="radio" id="virtual" name="attendance" value="Virtual">
+      <label for="virtual">Virtual</label><br>
+
+      <input type="radio" id="inperson" name="attendance" value="In-person">
+      <label for="inperson">In-person</label><br><br>
+
+      <label for="tshirt">T-shirt Size:</label><br>
+      <select id="tshirt" name="tshirt">
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+      </select>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+      <legend>Sessions of Interest</legend>
+
+      <input type="checkbox" id="web" name="sessions" value="Web Development">
+      <label for="web">Web Development</label><br>
+
+      <input type="checkbox" id="data" name="sessions" value="Data Science">
+      <label for="data">Data Science</label><br>
+
+      <input type="checkbox" id="cloud" name="sessions" value="Cloud Computing">
+      <label for="cloud">Calculas</label><br>
+
+      <input type="checkbox" id="cyber" name="sessions" value="Cybersecurity">
+      <label for="cyber">Cybersecurity</label><br>
+
+      <input type="checkbox" id="ai" name="sessions" value="AI & Machine Learning">
+      <label for="ai">AI & Machine Learning</label>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+      <legend>Dietary Preferences</legend>
+
+      <input type="checkbox" id="veg" name="diet" value="Vegetarian">
+      <label for="veg">Vegetarian</label><br>
+
+      <input type="checkbox" id="vegan" name="diet" value="Vegan">
+      <label for="vegan">Vegan</label><br>
+
+      <input type="checkbox" id="gluten" name="diet" value="Gluten-Free">
+      <label for="gluten">Gluten-Free</label><br>
+
+      <input type="checkbox" id="nut" name="diet" value="Nut-Free">
+      <label for="nut">Nut-Free</label><br>
+
+      <input type="checkbox" id="dairy" name="diet" value="Dairy-Free">
+      <label for="dairy">Dairy-Free</label><br>
+
+      <input type="checkbox" id="none" name="diet" value="No Restrictions">
+      <label for="none">No Restrictions</label>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+      <legend>Additional Comments</legend>
+
+      <textarea name="comments" rows="4" cols="40"
+        placeholder="Enter any additional requirements or comments here..."></textarea>
+    </fieldset>
+
+    <br>
+
+
+    <fieldset>
+      <legend>Consent</legend>
+
+      <input type="checkbox" id="consent" name="consent" required>
+      <label for="consent">
+        I agree to receive conference updates via email
+      </label>
+    </fieldset>
+
+    <br>
+
+
+    <input type="submit" value="submit">
+
+  </form>
+
+</body>
+
+</html>
