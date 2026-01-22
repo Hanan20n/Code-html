@@ -1,0 +1,11 @@
+body{
+  background-color:beige;
+}
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(32, 32, 4, 0.693);
+}
+.hana{
+  color: red;
+  font-weight: bold;
+}
